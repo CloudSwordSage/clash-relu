@@ -91,6 +91,11 @@ DOMAIN-SUFFIX,alchemy.com
 DOMAIN-SUFFIX,api.alchemy.com
 
 DOMAIN-SUFFIX,polymarket.com
+DOMAIN-SUFFIX,hyperliquid.xyz
+DOMAIN-SUFFIX,monad.xyz
+DOMAIN-SUFFIX,segmentapis.com
+DOMAIN-SUFFIX,megaeth.com
+DOMAIN-SUFFIX,walletconnect.org
 
 DOMAIN-KEYWORD,metamask
 DOMAIN-KEYWORD,infura
