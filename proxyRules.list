@@ -90,6 +90,8 @@ DOMAIN-SUFFIX,ipfs.io
 DOMAIN-SUFFIX,alchemy.com
 DOMAIN-SUFFIX,api.alchemy.com
 
+DOMAIN-SUFFIX,polymarket.com
+
 DOMAIN-KEYWORD,metamask
 DOMAIN-KEYWORD,infura
 DOMAIN-KEYWORD,consensys
