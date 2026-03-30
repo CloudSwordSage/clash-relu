@@ -173,6 +173,15 @@ DOMAIN-SUFFIX,steamdb.info
 DOMAIN-SUFFIX,statically.io
 DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
 DOMAIN-SUFFIX,steamcommunity-a2.akamaihd.net
+DOMAIN-SUFFIX,redd.it
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,redditinc.com
+DOMAIN-SUFFIX,redditmail.com
+DOMAIN-SUFFIX,redditmedia.com
+DOMAIN-SUFFIX,redditstatic.com
+DOMAIN-SUFFIX,redditblog.com
+DOMAIN-SUFFIX,reddithelp.com
+DOMAIN-SUFFIX,redditlist.com
 
 DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,ytimg.com
