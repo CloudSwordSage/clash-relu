@@ -413,3 +413,5 @@ DOMAIN-SUFFIX,mirror.gcr.io
 DOMAIN-SUFFIX,quay.io
 DOMAIN-SUFFIX,ghcr.io
 DOMAIN-SUFFIX,moby.buildkit
+
+DOMAIN-SUFFIX,microsoft.com
