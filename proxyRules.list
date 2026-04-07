@@ -415,3 +415,5 @@ DOMAIN-SUFFIX,ghcr.io
 DOMAIN-SUFFIX,moby.buildkit
 
 DOMAIN-SUFFIX,microsoft.com
+
+DOMAIN-SUFFIX,dify.ai
