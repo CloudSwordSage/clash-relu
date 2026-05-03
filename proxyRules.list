@@ -1,3 +1,17 @@
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,gvt1.com
+
+DOMAIN-SUFFIX,jetbrains.com
+
+DOMAIN-SUFFIX,gradle.org
+
+DOMAIN-SUFFIX,maven.org
+DOMAIN-SUFFIX,sonatype.org
+
+DOMAIN-SUFFIX,jitpack.io
+DOMAIN-SUFFIX,bintray.com
+
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-KEYWORD,google
 DOMAIN-SUFFIX,gmail.com
