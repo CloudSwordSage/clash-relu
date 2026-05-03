@@ -12,6 +12,10 @@ DOMAIN-SUFFIX,sonatype.org
 DOMAIN-SUFFIX,jitpack.io
 DOMAIN-SUFFIX,bintray.com
 
+DOMAIN-SUFFIX,flutter.dev
+DOMAIN-SUFFIX,dart.dev
+DOMAIN-SUFFIX,pub.dev
+
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-KEYWORD,google
 DOMAIN-SUFFIX,gmail.com
