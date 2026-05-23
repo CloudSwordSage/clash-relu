@@ -6,6 +6,9 @@ DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,googletagmanager.com
 DOMAIN-SUFFIX,gstatic.com
 
+DOMAIN-SUFFIX,msys2.org
+DOMAIN-SUFFIX,osuosl.org
+
 DOMAIN-SUFFIX,jetbrains.com
 
 DOMAIN-SUFFIX,gradle.org
