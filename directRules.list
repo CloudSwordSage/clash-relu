@@ -6,7 +6,7 @@ IP-CIDR,127.0.0.0/8,no-resolve
 IP-CIDR,169.254.0.0/16,no-resolve
 IP-CIDR,224.0.0.0/4,no-resolve
 IP-CIDR,240.0.0.0/4,no-resolve
-GEOIP,CN
+
 DOMAIN-SUFFIX,cn.bing.com
 DOMAIN-SUFFIX,bilibili.com
 DOMAIN-SUFFIX,b23.tv
