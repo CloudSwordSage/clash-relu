@@ -114,6 +114,16 @@ DOMAIN-SUFFIX,metamask.app
 DOMAIN-SUFFIX,metamask-extension.com
 DOMAIN-SUFFIX,metamask.io.cdn.cloudflare.net
 
+DOMAIN-SUFFIX,safepal.com
+DOMAIN-SUFFIX,safepal.io
+
+DOMAIN-SUFFIX,infura.io
+DOMAIN-SUFFIX,alchemy.com
+DOMAIN-SUFFIX,ankr.com
+DOMAIN-SUFFIX,trongrid.io
+DOMAIN-SUFFIX,solana.com
+DOMAIN-SUFFIX,binance.org
+
 DOMAIN-SUFFIX,consensys.net
 DOMAIN-SUFFIX,consensys.io
 
@@ -126,9 +136,6 @@ DOMAIN-SUFFIX,jsdelivr.net
 
 DOMAIN-SUFFIX,cloudflare-ipfs.com
 DOMAIN-SUFFIX,ipfs.io
-
-DOMAIN-SUFFIX,alchemy.com
-DOMAIN-SUFFIX,api.alchemy.com
 
 DOMAIN-SUFFIX,polymarket.com
 DOMAIN-SUFFIX,hyperliquid.xyz
