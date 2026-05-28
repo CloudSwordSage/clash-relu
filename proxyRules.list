@@ -137,6 +137,14 @@ DOMAIN-SUFFIX,jsdelivr.net
 DOMAIN-SUFFIX,cloudflare-ipfs.com
 DOMAIN-SUFFIX,ipfs.io
 
+DOMAIN-SUFFIX,solayer.org
+DOMAIN-SUFFIX,solana.fm
+DOMAIN-SUFFIX,solflare.com
+DOMAIN-SUFFIX,phantom.app
+DOMAIN-KEYWORD,rpc
+DOMAIN-SUFFIX,ankr.com
+DOMAIN-SUFFIX,quicknode.pro
+
 DOMAIN-SUFFIX,polymarket.com
 DOMAIN-SUFFIX,hyperliquid.xyz
 DOMAIN-SUFFIX,monad.xyz
