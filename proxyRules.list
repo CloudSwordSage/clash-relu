@@ -38,6 +38,7 @@ DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,oaistatic.com
 
 DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,github.io
