@@ -1,0 +1,103 @@
+# Profile Enhancement Merge Template for Clash Verge
+
+profile:
+  store-selected: true
+  store-fake-ip: true
+  
+proxy-groups:
+  - name: 节点选择
+    type: select
+
+    include-all: true
+
+    exclude-filter: >-
+      群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|续费|购买|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|建议|地址|频道|无法|说明|使用|提示|特别|访问|支持|10x|8x|6x|状态|欠费
+
+    proxies:
+      - DIRECT
+
+    url: https://www.google.com/generate_204
+    interval: 300
+    timeout: 3000
+    lazy: true
+    max-failed-times: 3
+    hidden: false
+    icon: https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/adjust.svg
+
+  - name: 全局直连
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择
+
+    url: http://connectivitycheck.gstatic.com/generate_204
+    interval: 300
+    timeout: 3000
+    lazy: true
+    max-failed-times: 3
+    hidden: false
+    icon: https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/link.svg
+
+  - name: 广告拦截
+    type: select
+    proxies:
+      - REJECT
+      - 全局直连
+
+    url: https://cpro.baidustatic.com/cpro/ui/c.js
+    interval: 300
+    timeout: 3000
+    lazy: true
+    max-failed-times: 3
+    hidden: false
+    icon: https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/bug.svg
+
+  - name: 其他
+    type: select
+
+    include-all: true
+
+    filter: >-
+      群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|续费|购买|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|建议|地址|频道|无法|说明|使用|提示|特别|访问|支持|10x|8x|6x|状态|欠费
+
+    url: https://www.youtube.com/generate_204
+    interval: 300
+    timeout: 3000
+    lazy: true
+    max-failed-times: 3
+    hidden: false
+    icon: https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/block.svg
+
+
+rule-providers:
+  directRules:
+    type: http
+    behavior: classical
+    format: text
+    path: ./ruleset/directRules.list
+    url: https://raw.githubusercontent.com/CloudSwordSage/clash-relu/main/directRules.list
+    interval: 3600
+
+  proxyRules:
+    type: http
+    behavior: classical
+    format: text
+    path: ./ruleset/proxyRules.list
+    url: https://raw.githubusercontent.com/CloudSwordSage/clash-relu/main/proxyRules.list
+    interval: 3600
+
+  rejectRules:
+    type: http
+    behavior: classical
+    format: text
+    path: ./ruleset/rejectRules.list
+    url: https://raw.githubusercontent.com/CloudSwordSage/clash-relu/main/rejectRules.list
+    interval: 3600
+
+
+rules:
+  - RULE-SET,rejectRules,广告拦截
+  - RULE-SET,directRules,全局直连
+  - RULE-SET,proxyRules,节点选择
+  - GEOIP,CN,全局直连
+  - MATCH,全局直连
