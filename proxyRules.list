@@ -323,6 +323,8 @@ DOMAIN-SUFFIX,dev.to
 DOMAIN-SUFFIX,medium.com
 
 DOMAIN-SUFFIX,pypi.org
+DOMAIN-SUFFIX,pythonhosted.org
+DOMAIN-SUFFIX,pypa.io
 DOMAIN-SUFFIX,python.org
 DOMAIN-SUFFIX,npmjs.com
 DOMAIN-SUFFIX,nodejs.org
