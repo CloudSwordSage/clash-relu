@@ -54,6 +54,7 @@ DOMAIN-SUFFIX,jetbrains.com
 DOMAIN-SUFFIX,gradle.org
 
 DOMAIN-SUFFIX,maven.org
+DOMAIN-KEYWORD,maven
 DOMAIN-SUFFIX,sonatype.org
 
 DOMAIN-SUFFIX,jitpack.io
