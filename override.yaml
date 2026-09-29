@@ -1,5 +1,7 @@
 # Profile Enhancement Merge Template for Clash Verge
 
+ipv6: &ipv6_enabled true
+
 profile:
   store-selected: true
   store-fake-ip: true
@@ -96,6 +98,7 @@ rule-providers:
 
 dns:
   enable: true
+  ipv6: *ipv6_enabled
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
 
@@ -106,12 +109,24 @@ dns:
     - RULE-SET,proxyRules,fake-ip
     - MATCH,real-ip
 
+  # 默认 DNS，普通域名继续走传统 DNS
   nameserver:
     - 223.5.5.5
     - 119.29.29.29
 
+  # proxyRules 强制使用加密 DNS
+  nameserver-policy:
+    "rule-set:proxyRules":
+      - https://dns.google/dns-query
+      - https://cloudflare-dns.com/dns-query
+      - https://dns.alidns.com/dns-query
+
+  # DIRECT 流量仍允许使用系统 DNS
   direct-nameserver:
     - system
+
+  # 防止 direct-nameserver 覆盖 nameserver-policy
+  direct-nameserver-follow-policy: true
 
 rules:
   - RULE-SET,rejectRules,广告拦截
