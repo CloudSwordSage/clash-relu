@@ -94,6 +94,24 @@ rule-providers:
     url: https://raw.githubusercontent.com/CloudSwordSage/clash-relu/main/rejectRules.list
     interval: 3600
 
+dns:
+  enable: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+
+  fake-ip-filter-mode: rule
+  fake-ip-filter:
+    - DOMAIN-SUFFIX,lan,real-ip
+    - DOMAIN-SUFFIX,local,real-ip
+    - RULE-SET,proxyRules,fake-ip
+    - MATCH,real-ip
+
+  nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+
+  direct-nameserver:
+    - system
 
 rules:
   - RULE-SET,rejectRules,广告拦截
